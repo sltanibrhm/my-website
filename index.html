@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya - Luxuria</title>
+    <style>
+        /* Reset dasar */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #0a0a0a;
+            color: #f0f0f0;
+            line-height: 1.6;
+            overflow-x: hidden;
+            margin: 0;
+            text-align: center;
+        }
+        /* Header */
+        header {
+            background: radial-gradient(circle, rgba(15, 15, 15, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+            border-bottom: 5px solid #ffcc00;
+            padding: 100px 20px;
+            color: #fff;
+        }
+        header h1 {
+            font-size: 4em;
+            margin-bottom: 10px;
+            font-weight: 700;
+            background: -webkit-linear-gradient(45deg, #ffd700, #ff8c00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+        }
+        header p {
+            font-size: 1.4em;
+            font-weight: 300;
+            margin-bottom: 30px;
+            background: -webkit-linear-gradient(45deg, #ff8c00, #ff5e62);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 10px rgba(255, 105, 180, 0.7);
+        }
+        .main-content {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(12px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+        .section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8);
+        }
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 6px solid #ffcc00;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .profile-pic:hover {
+            transform: scale(1.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+        }
+        h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            color: #ffcc00;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        p, li {
+            font-size: 1.2em;
+            line-height: 1.7;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section li {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .section a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+        .section a:hover {
+            color: #ff8c00;
+            text-shadow: 0 0 10px rgba(255, 105, 180, 0.7);
+            text-decoration: underline;
+        }
+        .social-media {
+            margin: 20px 0;
+        }
+        .social-media a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .social-icon:hover {
+            transform: scale(1.2);
+            filter: brightness(1.2);
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: #ddd;
+            padding: 20px 0;
+            border-top: 5px solid #ffcc00;
+        }
+        footer p {
+            font-size: 1em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sultan Brian Ibrahim</h1>
+            <p>Aku suka suasana tenang, sering nikmatin langit buat cari kedamaian. Santai, sabar, dan gak suka ribet. Aku lebih fokus ngejaga vibe positif, menikmati hal-hal sederhana dalam hidup, dan suka dengerin lagu-lagu yang santai.</p>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="section profile">
+            <img src="profil.jpg" alt="Foto Profil" class="profile-pic">
+            <h2>Tentang Saya</h2>
+            <p>Aku tinggal di Kota Nganjuk dan saat ini sekolah di MAS Terpadu Misykat Al-Anwar, Jombang. Di waktu luangku, aku suka bermain game, dengerin musik sambil ngemil atau membaca novel. Kadang aku ngegame sendiri, kadang juga ada teman yang ikut tergantung ada yang mau apa ngga. Novel-novel Tere Liye adalah favoritku karena setiap bukunya selalu menarik dan menghibur</p>
+        </section>
+        <section class="section education">
+            <h2>Latar Belakang & Pendidikan</h2>
+            <ul>
+                <li>SD - SDN 1 Sumengko - 2013-2018</li>
+                <li>MTS - MTsN 5 Nganjuk - 2019-2021</li>
+                <li>MA - MAS Terpadu Misykat Al-Anwar - 2022-2024</li>
+            </ul>
+        </section>
+        <section class="section hobbies">
+            <h2>Hobi & Minat</h2>
+            <p>Main Game Apapun, Ngemil, Tidur, Ngedit Jejehh.</p>
+        </section>
+        <section class="section contact">
+            <h2>Kontak</h2>
+            <p>Hubungi saya melalui:</p>
+            <div class="social-media">
+                <a href="mailto:brianibrahim800@gmail.com" title="Email"><img src="icons/email.png" alt="Email" class="social-icon"></a>
+                <a href="https://wa.me/+6285748609224" target="_blank" title="WhatsApp"><img src="icons/whatsapp.png" alt="WhatsApp" class="social-icon"></a>
+                <a href="https://t.me/sltanibrhm" target="_blank" title="Telegram"><img src="icons/telegram.png" alt="Telegram" class="social-icon"></a>
+                <a href="https://www.linkedin.com/in/username" target="_blank" title="LinkedIn"><img src="icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                <a href="https://twitter.com/sltanibrhm_" target="_blank" title="Twitter"><img src="icons/twitter.png" alt="Twitter" class="social-icon"></a>
+                <a href="https://github.com/username" target="_blank" title="GitHub"><img src="icons/github.png" alt="GitHub" class="social-icon"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sultan Brian Ibrahim. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
